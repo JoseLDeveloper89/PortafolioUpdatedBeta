@@ -1,0 +1,143 @@
+*
+{
+
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 150px;
+  font-weight: 800;
+  color: transparent;
+  background-image: url(https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif);
+  background-position: center;
+  -webkit-background-clip: text;
+  line-height: 1.3em
+
+
+}
+p{
+  margin-bottom: 1.6em;
+  text-align: justify;
+}
+.header{
+  background: #1597E5;
+  color: white;
+  padding: 2rem 0;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  letter-spacing: 15px;
+  font-size: 1.4em;
+
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.navigation ul li{
+  display: inline-block;
+
+}
+
+.navigation ul li a {
+  display:  block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+
+}
+
+.navigation ul li a:hover {
+    background: #193498;
+}
+
+.main{
+  padding: 10rem;
+
+}
+body{
+
+  font-family: Times, Georgia,;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.4em;
+  margin: 0 ;
+}
+
+.container {
+  width: 85%;
+  max-width: 950px;
+  margin: 0 auto;
+
+
+}
+
+.menu > li{
+  position: relative;
+  display: inline-block;
+
+
+}
+
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #C7BEA2;
+
+
+
+  }
+
+  .menu li a:hover{
+    color: yellow;
+    transition: all .3s
+
+
+
+  }
+
+  .submenu{
+    position: absolute;
+    visibility:  hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    background: #69DADB;
+
+  }
+  .submenu li a{
+    display: block;
+
+    padding: 15px
+    color: Red;
+    text-decoration: none;
+
+  }
+
+  .menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+  }
